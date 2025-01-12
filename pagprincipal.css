@@ -80,19 +80,13 @@ menu > ul > li > a:hover{
     font-size: 1.4em;
 }
 
-hr{
-    border: none; 
-    height: 5px; 
-    background-color: black; 
-    width: 100%;  
-    margin-bottom: 5px;
-    border-radius: 10px;
-}
-
 .roda-pe{
-    margin-top: 30px;
+    border-top: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-top: 50px;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 15px;
+    padding: 25px;
     text-align: justify;
 }
