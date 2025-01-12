@@ -1,4 +1,98 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+.nome-site{
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.488);
+    padding: 10px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 60px;
+}
 
+h3{
+    text-align: center;
+    font-size: 1.7em;
+    color: rgb(255, 0, 0);
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.488);
+}
+
+#botao-menu{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 2em;
+    background-color: rgb(41, 38, 38);
+    color: white;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+#botao-menu:hover{
+    background-color: rgb(88, 88, 88);
+    color: black;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: gray;
+    color: red;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+menu > ul > li > a:hover{
+    background-color: rgb(41, 40, 40);
+}
+
+.pergunta{
+    text-align: center;
+    color: red;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.txt-do-site > p{
+    font-size: 1.4em;
+    padding: 5px;
+    text-indent: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.txt-do-site li{
+    margin-left: 60px;
+    margin-top: 2px;
+    font-size: 1.4em;
+}
+
+hr{
+    border: none; 
+    height: 5px; 
+    background-color: black; 
+    width: 100%;  
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.roda-pe{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 15px;
+    text-align: justify;
+}
