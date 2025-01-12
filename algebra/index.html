@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,42 @@
     <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="algebra.css">
 </head>
-<body>
-    
+<body>  
+    <h1>Álgebra</h1>
+    <h3>Sistema de Equações Lineares</h3>
+    <p class="exemplo">Exemplo:</p>
+    <p>
+        {3x – y = -11 <br>
+        {x + 2y = 8
+    </p>
 
+    <p><strong>Algumas observações antes de você digitar os valores.</strong> Qualquer número ele vem acompanhado com sinal de + ou de -, dentro dos parênteses, você precisa digitar o sinal quando ele é - (negativo), se for + (positivo) não precisa.</p>
+
+    <p>
+        {(A1) (A2) = (A3) <br>
+        {(B1) (B2) = (B3)
+            
+    </p>
+
+    <div class="valores-sistemas">
+        <p>Apenas insira o sinal de cada valor e o valor em cada caixinha correspondente. </p>
+        <p>Digite o valor do <strong>A1:</strong> <input type="number" name="A1" id="iA1"></p>
+        <p>Digite o valor do <strong>A2:</strong> <input type="number" name="A2" id="iA2"></p>
+        <p>Digite o valor do <strong>A3:</strong> <input type="number" name="A3" id="iA3"></p>
+        <p>Digite o valor do <strong>B1:</strong> <input type="number" name="B1" id="iB1"></p>
+        <p>Digite o valor do <strong>B2:</strong> <input type="number" name="B2" id="iB2"></p>
+        <p>Digite o valor do <strong>B3:</strong> <input type="number" name="B3" id="iB3"></p>
+        <p><input id="botao-calcular" type="submit" value="Calcular" onclick="calcular()"></p>
+    </div>
+
+    <div id="res">
+
+    </div>
+
+        
+    
+    
+    <script src="script.js"></script>
     <div class="roda-pe">
         <footer><strong>© 2025 Gabriel Lippi da Costa. Todos os direitos reservados.</strong>
        </footer>
