@@ -51,7 +51,8 @@ menu > ul > li > a{
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
-    background-color: gray;
+    font-size: 1.2em;
+    background-color: rgba(182, 176, 176, 0.814);
     color: red;
     border-top: 2px solid rgb(0, 0, 0);
 }
