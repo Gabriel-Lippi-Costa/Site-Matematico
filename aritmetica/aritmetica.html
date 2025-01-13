@@ -56,8 +56,72 @@
     <div id="res-fra-por">
 
     </div>
+
+    <p class="ordem">4º</p>
+    <p>Digite o valor do Numerador: <input type="number" name="numerador-dois" id="inumerador-dois"></p>
+    <p>Digite o valor do Denominador: <input type="number" name="denominador-dois" id="idenominador-dois"> </p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="fracaoparadecimal()"></p>
+
+    <div id="res-fra-deci">
+
+    </div>
+
+    <p class="ordem">5º</p>
+    <p>Digite o valor: <input type="number" name="decimal" id="idecimal"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="decimalparaporcentagem()"></p>
+
+    <div id="res-deci-por">
+
+    </div>
+
+    <p class="ordem">6º</p>
+    <p>Para transformar um número decimal em fração bastar seguir esses passos:</p>
+    <p><strong>1-</strong> Copie o número sem vírgula.</p> 
+    <p><strong>2-</strong> Conte quantas casas decimais após a virgula.</p>
+    <p><strong>3-</strong> Você pega essa quantidade e coloca como "0" no denominador.</p> 
+    <p>Olhe o exemplo abaixo, serve para qualquer número decimal:</p>
     
 
+    <p><img src="numdecimalparafracao.png" alt=""></p>
+
+
+    <h3>Conversor de Medidas</h3>
+    <p class="exemplo">Exemplo:</p>
+    <p><strong>1º -</strong> km <i class="bi bi-arrow-right"></i> m, cm, mm</p>
+    <p><strong>2º -</strong> m <i class="bi bi-arrow-right"></i> km, cm, mm</p>
+    <p><strong>3º -</strong> cm <i class="bi bi-arrow-right"></i> km, m, mm</p>
+    <p><strong>4º -</strong> mm <i class="bi bi-arrow-right"></i> km, m, cm</p>
+    
+    <p class="ordem">1º</p>
+    <p>Digite o valor em km: <input type="number" name="km" id="ikm"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularkm()"></p>
+
+    <div id="res-km">
+
+    </div>
+
+    <p class="ordem">2º</p>
+    <p>Digite o valor em m: <input type="number" name="m" id="im"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularm()"></p>
+
+    <div id="res-m">
+
+    </div>
+
+    <p class="ordem">3º</p>
+    <p>Digite o valor em cm: <input type="number" name="cm" id="icm"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularcm()"></p>
+
+    <div id="res-cm">
+
+    </div>
+
+    
+    <script src="cm.js"></script>
+    <script src="m.js"></script>
+    <script src="km.js"></script>
+    <script src="decimalparaporcentagem.js"></script>
+    <script src="fracao-decimal.js"></script>
     <script src="fracao-porcentagem.js"></script>
     <script src="porcentagem-decimal.js"></script>
     <script src="porcentagem-fracao.js"></script>

@@ -61,6 +61,27 @@ input#inumerador, #idenominador{
     margin-left: 15px;
 }
 
+input#inumerador-dois, #idenominador-dois{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    margin-left: 15px;
+}
+
+input#idecimal{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    margin-left: 15px;
+}
+
+input#ikm, #im, #icm, #imm{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    margin-left: 15px;
+}
+
 
 #botao-calcular{
     font-size: 1em;
