@@ -4,15 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aritmética</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="aritmetica.css">
 </head>
 <body>
     <h1>Aritmética</h1>
     <h3>Porcentagem</h3>
 
+    <p>Exemplo: </p>
+    <p>10% de 100 = <strong>10</strong> </p>
+
+    <p>Digite apenas o valor da Porcentagem: <input type="number" name="porcentagem" id="iporcentagem"></p>
+    <p>Digite o valor que deseja calcular: <input type="number" name="valor" id="ivalor"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="porcentagem()"></p>
     
+    <div id="resposta-porcentagem">
+
+    </div>
+
+    <h3>Conversor Numérico</h3>
+    <p>Exemplo:</p>
+    <p>1º - Porcentagem <i class="bi bi-arrow-right"></i> Fração</p>
+    <p>2° - Porcentagem <i class="bi bi-arrow-right"></i> Decimal</p>
+    <p>3º - Fração <i class="bi bi-arrow-right"></i> Porcentagem</p>
+    <p>4º - Fração <i class="bi bi-arrow-right"></i> Decimal</p>
+    <p>5º - Decimal <i class="bi bi-arrow-right"></i> Porcentagem</p>
+    <p>6º - Decimal <i class="bi bi-arrow-right"></i> Fração</p>
+
+    <p class="ordem">1º</p>
+    <p>Digite apenas o valor da Porcentagem: <input type="number" name="por-um" id="ipor-um"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="porcentagemparafracao()"></p>
     
-    <script src="aritmetica.js"></script>
+    <div id="resp-por">
+
+    </div>
+
+    <p class="ordem">2º</p>
+    <p>Digite apenas o valor da Porcentagem: <input type="number" name="por-dois" id="ipor-dois"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="porcentagemparadecimal()"></p>
+
+    <div id="res-por-deci">
+
+    </div>
+
+
+    <p class="ordem">3º</p>
+    <p>Digite o valor do Numerador: <input type="number" name="numerador" id="inumerador"></p>
+    <p>Digite o valor do Denominador: <input type="number" name="denominador" id="idenominador"> </p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="fracaoparaporcentagem()"></p>
+
+    <div id="res-fra-por">
+
+    </div>
+    
+
+    <script src="fracao-porcentagem.js"></script>
+    <script src="porcentagem-decimal.js"></script>
+    <script src="porcentagem-fracao.js"></script>
+    <script src="porcentagem.js"></script>
     <div class="roda-pe">
         <footer><strong>© 2025 Gabriel Lippi da Costa. Todos os direitos reservados.</strong>
        </footer>
