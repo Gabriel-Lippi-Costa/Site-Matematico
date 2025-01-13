@@ -29,10 +29,16 @@ h3{
 p{
     font-size: 1.4em;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 input#iA1, #iA2, #iA3, #iB1, #iB2, #iB3{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+}
+
+input#iC1, #iC2, #iC3{
     border-style: solid;
     border-color: black;
     width: 100px;
