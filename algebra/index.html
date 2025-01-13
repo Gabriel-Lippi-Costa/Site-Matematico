@@ -11,18 +11,22 @@
     <h1>Álgebra</h1>
     <h3>Sistema de Equações Lineares</h3>
     <p class="exemplo">Exemplo:</p>
-    <p>
-        {3x – y = -11 <br>
-        {x + 2y = 8
-    </p>
+    
+        <div class="exemplos">
+            <p>{3x – y = -11</p>
+            <p>{x + 2y = 8</p>
+        </div>
+    
 
-    <p><strong>Algumas observações antes de você digitar os valores.</strong> Qualquer número ele vem acompanhado com sinal de + ou de -, nos campos abaixo, você precisa digitar o sinal quando ele é - (negativo), se for + (positivo) não precisa.</p>
+    <p><strong>Algumas observações antes de você digitar os valores.</strong></p> <p>Apenas alguns sistemas de equações são possíveis de serem calculados corretamente.</p> <p>Qualquer número ele vem acompanhado com sinal de + ou de -, nos campos abaixo, você precisa digitar o sinal quando ele é - (negativo), se for + (positivo) não precisa.</p>
 
-    <p>
-        {(A1) (A2) = (A3) <br>
-        {(B1) (B2) = (B3)
+
+        <div class="exemplos">
+            <p>{(A1) (A2) = (A3)</p>
+            <p>{(B1) (B2) = (B3)</p>
+        </div>
             
-    </p>
+    
 
     <div class="valores-sistemas">
         <p>Apenas insira o sinal de cada valor e o valor em cada caixinha correspondente. </p>
@@ -39,30 +43,31 @@
 
     </div>
 
-    
-    <h3>Matriz 3x3</h3>
+    <h3>Determinante de Matriz 3x3</h3>
     <p class="exemplo">Exemplo:</p>
-    <p><img src="imgmatriz.png" alt=""></p>
-    <p><strong>Algumas observações antes de você digitar os valores.</strong> Com base na imagem o que está dentro dos parênteses vai ser inserido de acordo com o seu valor.</p>
-    <div class="valores-sistemas">
-        <p>Apenas insira o sinal de cada valor e o valor em cada caixinha correspondente. </p>
-        <p>Digite o valor do <strong>A1:</strong> <input type="number" name="A1" id="iA1"></p>
-        <p>Digite o valor do <strong>A2:</strong> <input type="number" name="A2" id="iA2"></p>
-        <p>Digite o valor do <strong>A3:</strong> <input type="number" name="A3" id="iA3"></p>
-        <p>Digite o valor do <strong>B1:</strong> <input type="number" name="B1" id="iB1"></p>
-        <p>Digite o valor do <strong>B2:</strong> <input type="number" name="B2" id="iB2"></p>
-        <p>Digite o valor do <strong>B3:</strong> <input type="number" name="B3" id="iB3"></p>
-        <p>Digite o valor do <strong>C1:</strong> <input type="number" name="C1" id="iC1"></p>
-        <p>Digite o valor do <strong>C2:</strong> <input type="number" name="C2" id="iC2"></p>
-        <p>Digite o valor do <strong>C3:</strong> <input type="number" name="C3" id="iC3"></p>
-        <p><input id="botao-calcular" type="submit" value="Calcular" onclick="matriz()"></p>
-    </div>    
+    <div><img src="imgmatriz.png" alt=""></div>
+    <p><strong>Algumas observações antes de você digitar os valores.</strong></p> <p>Até o momento atual o cálculo de Matriz ele só funciona com algumas Matrizes.</p> <p>Com base na imagem o que está dentro dos parênteses vai ser inserido de acordo com o seu valor.</p>
+    <p>Apenas insira o sinal de cada valor e o valor em cada caixinha correspondente.</p>
+
+    <div>
+        <p>Digite o valor do <strong>A1:</strong> <input type="number" name="A1" id="iA1matriz"></p>
+        <p>Digite o valor do <strong>A2:</strong> <input type="number" name="A2" id="iA2matriz"></p>
+        <p>Digite o valor do <strong>A3:</strong> <input type="number" name="A3" id="iA3matriz"></p>
+        <p>Digite o valor do <strong>B1:</strong> <input type="number" name="B1" id="iB1matriz"></p>
+        <p>Digite o valor do <strong>B2:</strong> <input type="number" name="B2" id="iB2matriz"></p>
+        <p>Digite o valor do <strong>B3:</strong> <input type="number" name="B3" id="iB3matriz"></p>
+        <p>Digite o valor do <strong>C1:</strong> <input type="number" name="C1" id="iC1matriz"></p>
+        <p>Digite o valor do <strong>C2:</strong> <input type="number" name="C2" id="iC2matriz"></p>
+        <p>Digite o valor do <strong>C3:</strong> <input type="number" name="C3" id="iC3matriz"></p>
+        <p><input id="botao-calcular" type="button" value="Calcular" onclick="matriz()"></p>
+    </div>
     
-    <div id="resm">
+    <div id="resp-matriz">
 
     </div>
     
     <script src="script.js"></script>
+    <script src="matriz.js"></script>
     <div class="roda-pe">
         <footer><strong>© 2025 Gabriel Lippi da Costa. Todos os direitos reservados.</strong>
        </footer>

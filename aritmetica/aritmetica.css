@@ -22,32 +22,18 @@ h3{
     text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.488);
 }
 
-.exemplo{
-    margin-top: 5px;
-}
-
-.exemplos{
-    margin: 15px 0px;
-}
-
 p{
     font-size: 1.4em;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    text-indent: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
-input#iA1, #iA2, #iA3, #iB1, #iB2, #iB3{
+input#ipor, #ivalor{
     border-style: solid;
     border-color: black;
     width: 100px;
 }
 
-input#iA1matriz, #iA2matriz, #iA3matriz, #iB1matriz, #iB2matriz, #iB3matriz, #iC1matriz, #iC2matriz, #iC3matriz{
-    border-style: solid;
-    border-color: black;
-    width: 100px;
-}
 
 #botao-calcular{
     font-size: 1em;
@@ -58,10 +44,6 @@ input#iA1matriz, #iA2matriz, #iA3matriz, #iB1matriz, #iB2matriz, #iB3matriz, #iC
     margin-top: 5px;
     padding: 5px;
     cursor: pointer;
-}
-
-img{
-    margin-top: 10px;
 }
 
 .roda-pe{
