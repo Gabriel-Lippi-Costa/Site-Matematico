@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatística</title>
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="geometria.css">
+</head>
+<body>
+
+    <h1>Geometria</h1>
+    <h3>Área de Formas Geométricas</h3>
+    <p class="Exemplo">Formas Geométricas mais usadas e conhecidas:</p>
+    <p><strong>1-</strong> Quadrado</p>
+    <p><strong>2-</strong> Triângulo</p>
+    <p><strong>3-</strong> Retângulo</p>
+    <p><strong>4-</strong> Trapézio</p>
+    <p><strong>5-</strong> Losango</p>
+    <p><strong>6-</strong> Círculo</p>
+
+
+
+    <p class="ordem">1º</p>
+    <p><img src="img-quadrado.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular a Área de um Quadrado:</strong> </p>
+
+    <p><img style="width: 110px;" src="formula-quadrado.png" alt=""></p>
+
+    <p>Digite o valor do Lado do seu Quadrado: <input type="number" name="area-q" id="iarea-q"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularareaq()"></p>
+
+    <div id="res-area-q">
+
+    </div>
+
+
+
+    <p class="ordem">2º</p>
+    <p><img src="img-triangulo.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular a Área de um Triângulo:</strong> </p>
+
+    <p><img style="width: 150px;" src="formula-triangulo.png" alt=""></p>
+
+    <p>Digite o valor da Base : <input type="number" name="area-t" id="ibase-t"></p>
+    <p>Digite o valor da Altura: <input type="number" name="altura-t" id="ialtura-t"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularareat()"></p>
+
+    <div id="res-area-t">
+
+    </div>
+
+
+    <p class="ordem">3º</p>
+    <p><img src="img-retangulo.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular a Área de um Retângulo:</strong> </p>
+
+    <p><img style="width: 150px;" src="formula-retangulo.png" alt=""></p>
+
+    <p>Digite o valor da Base : <input type="number" name="area-r" id="ibase-r"></p>
+    <p>Digite o valor da Altura: <input type="number" name="altura-r" id="ialtura-r"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calculararear()"></p>
+
+    <div id="res-area-r">
+
+    </div>
+
+
+
+    <p class="ordem">4º</p>
+    <p><img src="img-trapezio.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular a Área de um Trapézio:</strong> </p>
+
+    <p><img style="width: 200px;" src="formula-trapezio.png" alt=""></p>
+
+    <p>Digite o valor da Base maior : <input type="number" name="base-maior-tra" id="ibase-maior-tra"></p>
+    <p>Digite o valor da Base menor: <input type="number" name="base-menor-tra" id="ibase-menor-tra"></p>
+    <p>Digite o valor da Altura: <input type="number" name="altura-t" id="ialtura-tra"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularareatra()"></p>
+
+    <div id="res-area-tra">
+
+    </div>
+
+    
+
+
+    <script src="area-tra.js"></script>
+    <script src="area-r.js"></script>
+    <script src="area-t.js"></script>
+    <script src="area-q.js"></script>
+    <div class="roda-pe">
+        <footer><strong>© 2025 Gabriel Lippi da Costa. Todos os direitos reservados.</strong>
+       </footer>
+   </div>
+</body>
+</html>
