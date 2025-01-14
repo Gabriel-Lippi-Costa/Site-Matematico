@@ -40,7 +40,7 @@ p{
     margin-top: 5px;
 }
 
-input#iarea-q, #ibase-t, #ialtura-t, #ibase-r, #ialtura-r, #ibase-maior-tra, #ibase-menor-tra, #ialtura-tra{
+input#iarea-q, #ibase-t, #ialtura-t, #ibase-r, #ialtura-r, #ibase-maior-tra, #ibase-menor-tra, #ialtura-tra, #idiagonal-maior, #idiagonal-menor, #iraio{
     border-style: solid;
     border-color: black;
     width: 100px;

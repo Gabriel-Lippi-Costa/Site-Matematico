@@ -45,7 +45,7 @@
 
     <p><img style="width: 150px;" src="formula-triangulo.png" alt=""></p>
 
-    <p>Digite o valor da Base : <input type="number" name="area-t" id="ibase-t"></p>
+    <p>Digite o valor da Base: <input type="number" name="area-t" id="ibase-t"></p>
     <p>Digite o valor da Altura: <input type="number" name="altura-t" id="ialtura-t"></p>
     <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularareat()"></p>
 
@@ -61,7 +61,7 @@
 
     <p><img style="width: 150px;" src="formula-retangulo.png" alt=""></p>
 
-    <p>Digite o valor da Base : <input type="number" name="area-r" id="ibase-r"></p>
+    <p>Digite o valor da Base: <input type="number" name="area-r" id="ibase-r"></p>
     <p>Digite o valor da Altura: <input type="number" name="altura-r" id="ialtura-r"></p>
     <p><input id="botao-calcular" type="button" value="Calcular" onclick="calculararear()"></p>
 
@@ -78,7 +78,7 @@
 
     <p><img style="width: 200px;" src="formula-trapezio.png" alt=""></p>
 
-    <p>Digite o valor da Base maior : <input type="number" name="base-maior-tra" id="ibase-maior-tra"></p>
+    <p>Digite o valor da Base maior: <input type="number" name="base-maior-tra" id="ibase-maior-tra"></p>
     <p>Digite o valor da Base menor: <input type="number" name="base-menor-tra" id="ibase-menor-tra"></p>
     <p>Digite o valor da Altura: <input type="number" name="altura-t" id="ialtura-tra"></p>
     <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularareatra()"></p>
@@ -87,9 +87,41 @@
 
     </div>
 
+
+    <p class="ordem">5º</p>
+    <p><img src="img-losango.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular a Área de um Trapézio:</strong> </p>
+
+    <p><img style="width: 200px;" src="formula-losango.png" alt=""></p>
+
+    <p>Digite o valor da Diagonal Maior: <input type="number" name="diagonal-maior" id="idiagonal-maior"></p>
+    <p>Digite o valor da Diagonal Menor: <input type="number" name="diagonal-menor" id="idiagonal-menor"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calculararealosan()"></p>
+
+    <div id="res-area-losan">
+
+    </div>
+
+
+
+    <p class="ordem">6º</p>
+    <p><img src="img-circulo.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular a Área de um Círculo:</strong> </p>
+
+    <p><img style="width: 200px;" src="formula-circulo.png" alt=""></p>
+
+    <p>Digite o valor do Raio: <input type="number" name="raio" id="iraio"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularareacircu()"></p>
+
+    <div id="res-area-circu">
+
+    </div>
+
     
-
-
+    <script src="area-circu.js"></script>
+    <script src="area-losan.js"></script>
     <script src="area-tra.js"></script>
     <script src="area-r.js"></script>
     <script src="area-t.js"></script>
