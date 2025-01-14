@@ -89,6 +89,13 @@ input#ikelvin, #icelsius, #ifahrenheit{
     margin-left: 15px;
 }
 
+input#iraizq{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    margin-left: 15px;
+}
+
 
 #botao-calcular{
     font-size: 1em;
