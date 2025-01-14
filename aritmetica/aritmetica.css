@@ -82,6 +82,13 @@ input#ikm, #im, #icm, #imm{
     margin-left: 15px;
 }
 
+input#ikelvin, #icelsius, #ifahrenheit{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    margin-left: 15px;
+}
+
 
 #botao-calcular{
     font-size: 1em;
