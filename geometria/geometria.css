@@ -47,7 +47,7 @@ input#iarea-q, #ibase-t, #ialtura-t, #ibase-r, #ialtura-r, #ibase-maior-tra, #ib
     margin-left: 15px;
 }
 
-input#ilado-qua, #itri-um, #itri-dois, #itri-tres, #ilado-um-reta, #ilado-dois-reta, #itra-um, #itra-dois, #itra-tres, #itra-quatro, #ilosa-lado{
+input#ilado-qua, #itri-um, #itri-dois, #itri-tres, #ilado-um-reta, #ilado-dois-reta, #itra-um, #itra-dois, #itra-tres, #itra-quatro, #ilosa-lado, #iraio-circu{
     border-style: solid;
     border-color: black;
     width: 100px;
