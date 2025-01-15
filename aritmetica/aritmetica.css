@@ -68,7 +68,7 @@ input#inumerador-dois, #idenominador-dois{
     margin-left: 15px;
 }
 
-input#idecimal{
+input#idecimal, #iprimo-num{
     border-style: solid;
     border-color: black;
     width: 100px;
