@@ -239,16 +239,117 @@
     <p><strong>7-</strong> Pirâmide Base Triangular</p>
 
     <p class="ordem">1º</p>
-    <p><img src="" alt=""></p>
+    <p><img src="img.cubo.png" alt=""></p>
 
-    <p><strong>Fórmula para calcular o Volume de um Quadrado:</strong> </p>
+    <p><strong>Fórmula para calcular o Volume de um Cubo:</strong> </p>
 
-    <p>Volume = = ?</p>
+    <p><img src="formula.cubo.png" alt=""></p>
 
-    <p>Digite o valor:  <input type="number" name="" id=""></p>
-    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcular()"></p>
+    <p>Digite o valor da Aresta:  <input type="number" name="volume-cubo" id="ivolume-cubo"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularvolcubo()"></p>
 
-    <div id="res">
+    <div id="res-volume-cubo">
+
+    </div>
+
+
+    <p class="ordem">2º</p>
+    <p><img src="img.paralelepipedo.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular o Volume de um Paralelepípedo:</strong> </p>
+
+    <p><img src="formula-paralelepipedo.png" alt=""></p>
+
+    <p>Digite o valor do Comprimento:  <input type="number" name="c-paralele" id="ic-paralele"></p>
+    <p>Digite o valor do Largura:  <input type="number" name="l-paralele" id="il-paralele"></p>
+    <p>Digite o valor da Altura: <input type="number" name="a-paralele" id="ia-paralele"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularvolparalelepipedo()"></p>
+
+    <div id="res-volume-paralelepipedo">
+
+    </div>
+
+
+
+    <p class="ordem">3º</p>
+    <p><img src="img.cilindro.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular o Volume de um Cilindro:</strong> </p>
+
+    <p><img src="formula-cilindro.png" alt=""></p>
+
+    <p>Digite o valor do Raio: <input type="number" name="r-cilindo" id="ir-cilindro"></p>
+    <p>Digite o valor da Altura: <input type="number" name="h-cilindro" id="ih-cilindro"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularvolcilindro()"></p>
+
+    <div id="res-volume-cilindro">
+
+    </div>
+
+
+
+    <p class="ordem">4º</p>
+    <p><img src="img-prisma.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular o Volume de um Prisma:</strong> </p>
+
+    <p><img src="formula-prisma.png" alt=""></p>
+
+    <p>Digite o valor da Área da Base: <input type="number" name="ar-prisma" id="iab-prisma"></p>
+    <p>Digite o valor da Altura: <input type="number" name="h-prisma" id="ih-prisma"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularvolprisma()"></p>
+
+    <div id="res-volume-prisma">
+
+    </div>
+
+
+
+    <p class="ordem">5º</p>
+    <p><img src="img-esfera.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular o Volume de uma Esfera:</strong> </p>
+
+    <p><img src="formula-esfera.png" alt=""></p>
+
+    <p>Digite o valor do Raio: <input type="number" name="r-esfera" id="ir-esfera"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularvolesfera()"></p>
+
+    <div id="res-volume-esfera">
+
+    </div>
+
+
+
+    <p class="ordem">6º</p>
+    <p><img src="img-cone.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular o Volume de um Cone:</strong> </p>
+
+    <p><img src="formula-cone.png" alt=""></p>
+
+    <p>Digite o valor do Raio: <input type="number" name="r-cone" id="ir-cone"></p>
+    <p>Digite o valor da Altura: <input type="number" name="h-cone" id="ih-cone"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularvolcone()"></p>
+
+    <div id="res-volume-cone">
+
+    </div>
+
+
+
+    <p class="ordem">7º</p>
+    <p><img src="img-piramide-base-triangular.png" alt=""></p>
+
+    <p><strong>Fórmula para calcular o Volume de uma Pirâmide de Base Triangular:</strong> </p>
+
+    <p><img src="formula-piramide-base-triangular.png" alt=""></p>
+
+    <p>Digite o valor da Área da Base: <input type="number" name="ab-piramide" id="iab-piramide"></p>
+    <p>Digite o valor da Altura: <input type="number" name="h-piramide" id="ih-piramide"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularvolpiramidebasetriangular()"></p>
+
+    <div id="res-volume-piramide">
 
     </div>
 
@@ -257,7 +358,13 @@
 
 
 
-
+    <script src="vol-piramide.js"></script>
+    <script src="vol-cone.js"></script>
+    <script src="vol-esfera.js"></script>
+    <script src="vol-prisma.js"></script>
+    <script src="vol-cilindro.js"></script>
+    <script src="volume-paralelepipedo.js"></script>
+    <script src="volume-cubo.js"></script>
     <script src="peri-circu.js"></script>
     <script src="peri-losa.js"></script>
     <script src="peri-trape.js"></script>

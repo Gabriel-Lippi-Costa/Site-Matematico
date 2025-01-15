@@ -54,6 +54,13 @@ input#ilado-qua, #itri-um, #itri-dois, #itri-tres, #ilado-um-reta, #ilado-dois-r
     margin-left: 15px;
 }
 
+input#ivolume-cubo, #ic-paralele, #il-paralele, #ia-paralele, #ir-cilindro, #ih-cilindro, #iab-prisma, #ih-prisma, #ir-esfera, #ir-cone, #ih-cone, #iab-piramide, #ih-piramide{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    margin-left: 15px;
+}
+
 #botao-calcular{
     font-size: 1em;
     border-style: solid;
