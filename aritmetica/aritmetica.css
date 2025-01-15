@@ -96,6 +96,20 @@ input#iraizq{
     margin-left: 15px;
 }
 
+input#imdcmmc-num1, #imdcmmc-num2{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    margin-left: 15px;
+}
+
+input#iini-tab, #ifim-tab{
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    margin-left: 15px;
+}
+
 
 #botao-calcular{
     font-size: 1em;

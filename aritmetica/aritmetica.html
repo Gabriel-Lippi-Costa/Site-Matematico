@@ -157,8 +157,13 @@
 
     </div>
 
-    <h3>*Número Primo*</h3>
-    
+    <h3>Número Primo</h3>
+    <p>Digite o número: <input type="number" name="primo-num" id="iprimo-num"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularprimo()"></p>
+
+    <div id="res-primo">
+
+    </div>
 
 
 
@@ -174,15 +179,30 @@
     </div> 
 
     
-    <h3>*MMC e MDC*</h3>
+    <h3>MMC e MDC</h3> 
+    <p>Digite o primeiro número: <input type="mdcmmc-num1" id="imdcmmc-num1"></p>
+    <p>Digite o segundo número: <input type="mdcmmc-num2" id="imdcmmc-num2"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calcularMMC_MDC()"></p>
+    <div id="res-mmc-mdc">
 
-    <h3>*Tabuada Automatizada*</h3>
+    </div>
 
 
 
+    <h3>Tabuada Automatizada</h3>
+    <p>Digite o Número que deseja calcular: <input type="number" name="ini-tab" id="iini-tab"></p>
+    <p>Digite o término do cálculo da Tabuada: <input type="number" name="fim-tab" id="ifim-tab"></p>
+    <p><input id="botao-calcular" type="button" value="Calcular" onclick="calculartabuada()"></p>
+    
+
+    <div id="res-tabuada">
+
+    </div>
 
 
-
+    <script src="tabuada.js"></script>
+    <script src="mmc-mdc.js"></script>
+    <script src="primo.js"></script>
     <script src="raizq.js"></script>
     <script src="fahrenheit.js"></script>
     <script src="celsius.js"></script>
